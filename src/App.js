@@ -1,10 +1,15 @@
 import React from 'react';
+import Home from './Home';
+import Modal from './Modal';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <Home/>
+      <Modal/>
+      <Sidebar/>
+    </>
   );
 }
 
